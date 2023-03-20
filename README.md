@@ -47,10 +47,9 @@
 
 <img src='screenshots/screenShot (1).png' alt='screenshot'>
 
-Thanks to this modification, the harvesters and auger wagons are unloaded manually by pressing the appropriate button. In the game settings, you can enable/disable manual unloading for specific machines.
+Thanks to this modification, in shop config screen you can change view to vehicle indoor camera or check engine sound.
 <br/>
 <br/>
-Start overloading / stop overloading - 'i' key (default)
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
