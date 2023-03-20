@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<modDesc descVersion='73'>
+	<author>VertexFloat</author>
+	<version>1.0.0.0</version>
+	<title>
+		<en>Shop Extension</en>
+		<de>Shop-Erweiterung</de>
+		<fr>Extension De La Boutique</fr>
+		<pl>Rozszerzenie Sklepu</pl>
+		<br>Extensão Da Loja</br>
+		<cz>Rozšíření Obchodu</cz>
+		<es>Extensión De Tienda</es>
+		<hu>Bolt Kiterjesztés</hu>
+		<it>Estensione Del Negozio</it>
+		<jp>店舗拡張</jp>
+		<kr>상점 확장</kr>
+		<nl>Uitbreiding Winkel</nl>
+		<pt>Extensão Da Loja</pt>
+		<ro>Extensie Magazin</ro>
+		<tr>Mağaza Uzantısı</tr>
+		<ru>Расширение магазина</ru>
+	</title>
+	<iconFilename>icon.png</iconFilename>
+	<multiplayer supported='true'/>
+
+	<description>
+<en><![CDATA[Thanks to this modification, in shop config screen you can change view to vehicle indoor camera or check engine sound.
+]]></en>
+<de><![CDATA[Dank dieser Modifikation können Sie im Shop-Konfigurationsfenster die Ansicht der Fahrzeuginnenkamera ändern oder den Motorsound überprüfen.
+]]></de>
+<fr><![CDATA[Grâce à cette modification, dans l'écran de configuration de la boutique, vous pouvez changer la vue de la caméra intérieure du véhicule ou vérifier le son du moteur.
+]]></fr>
+<pl><![CDATA[Dzięki tej modyfikacji w oknie konfiguracji sklepu możesz zmienić widok na kamerę wewnętrzną pojazdu lub sprawdzić dźwięk silnika.
+]]></pl>
+<br><![CDATA[Graças a esta modificação, na tela de configuração da loja, você pode alterar a visualização para a câmera interna do veículo ou verificar o som do motor.
+]]></br>
+<cz><![CDATA[Díky této úpravě můžete na obrazovce konfigurace obchodu změnit pohled na vnitřní kameru vozidla nebo zkontrolovat zvuk motoru.
+]]></cz>
+<es><![CDATA[Gracias a esta modificación, en la pantalla de configuración de la tienda puede cambiar la vista a la cámara interior del vehículo o comprobar el sonido del motor.
+]]></es>
+<hu><![CDATA[Ennek a módosításnak köszönhetően a bolt konfigurációs képernyőjén átállíthatja a nézetet a jármű beltéri kamerájára vagy ellenőrizheti a motor hangját.
+]]></hu>
+<it><![CDATA[Grazie a questa modifica, nella schermata di configurazione del negozio è possibile cambiare la visualizzazione della telecamera interna del veicolo o controllare il suono del motore.
+]]></it>
+<jp><![CDATA[この変更により、ショップの設定画面で、車内カメラに視点を変更したり、エンジン音を確認したりできるようになりました。
+]]></jp>
+<kr><![CDATA[이 수정 덕분에 Shop Config 화면에서 차량 실내 카메라로 보기를 변경하거나 엔진 소리를 확인할 수 있습니다.
+]]></kr>
+<nl><![CDATA[Dankzij deze wijziging kunt u in het configuratiescherm van de winkel de weergave wijzigen naar de binnencamera van het voertuig of het motorgeluid controleren.
+]]></nl>
+<pt><![CDATA[Graças a esta modificação, na tela de configuração da loja, você pode alterar a visualização para a câmera interna do veículo ou verificar o som do motor.
+]]></pt>
+<ro><![CDATA[Datorită acestei modificări, în ecranul de configurare a magazinului puteți schimba vizualizarea la camera interioară a vehiculului sau puteți verifica sunetul motorului.
+]]></ro>
+<tr><![CDATA[Bu değişiklik sayesinde mağaza yapılandırma ekranında görünümü araç iç kamerasına değiştirebilir veya motor sesini kontrol edebilirsiniz.
+]]></tr>
+<ru><![CDATA[Благодаря этой модификации на экране конфигурации магазина вы можете изменить вид на внутреннюю камеру автомобиля или проверить звук двигателя.
+]]></ru>
+	</description>
+
+	<extraSourceFiles>
+		<sourceFile filename='src/ShopConfigScreenExtension.lua'/>
+	</extraSourceFiles>
+</modDesc>
