@@ -27,6 +27,8 @@ end
 
 ShopConfigScreen.stopEngineSoundSample = function (self)
 	if self.vehicleSounds ~= nil then
+		self.sampleIsStopped = true
+
 		g_soundManager:stopSamples(self.vehicleSounds.samples)
 		g_soundManager:playSample(self.vehicleSounds.samples.motorStop)
 		g_soundManager:stopSamples(self.vehicleSounds.motorSamples)
@@ -40,6 +42,7 @@ ShopConfigScreen.resetEngineSoundSample = function (self)
 	end
 
 	self.sampleIsPlaying = false
+	self.sampleIsStopped = false
 	self.soundsCheckTime = 0
 
 	self.engineButton:setDisabled(false)
@@ -104,12 +107,14 @@ local function update(self, dt)
 	if self.sampleIsPlaying then
 		self.soundsCheckTime = self.soundsCheckTime + dt
 
-		if self.soundsCheckTime > soundsCheckDuration then
-			self:stopEngineSoundSample()
+		if self.soundsCheckTime >= soundsCheckDuration then
+			if not self.sampleIsStopped then
+				self:stopEngineSoundSample()
+			end
 
 			-- after stop engine samples, we waiting a second and a half so as not to cut off the sound suddenly,
 			-- that's why we resets here only after this time and not in the function that stopping samples
-			if self.soundsCheckTime > soundsCheckDuration + 1500 then
+			if self.soundsCheckTime >= soundsCheckDuration + 1500 then
 				self:resetEngineSoundSample()
 			end
 		end
@@ -159,7 +164,7 @@ local function updateButtons(self, superFunc, storeItem, vehicle, saleItem)
 
 		isCreated = true
 	end
-
+	-- at this moment we can't verify that vehicle has cameras or it's motorized so we create buttons no matter of it but we hide it
 	self.cameraButton:setVisible(false)
 	self.engineButton:setVisible(false)
 	self.buttonsPanel:invalidateLayout()
@@ -245,6 +250,10 @@ local function deletePreviewVehicles(self)
 
 	if self.sampleIsPlaying ~= nil then
 		self.sampleIsPlaying = false
+	end
+
+	if self.sampleIsStopped ~= nil then
+		self.sampleIsStopped = false
 	end
 
 	if self.soundsCheckTime ~= nil then
