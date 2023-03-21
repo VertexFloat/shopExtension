@@ -90,6 +90,7 @@ or
 <img src='screenshots/screenShot (3).png' alt='screenshot'>
 <img src='screenshots/screenShot (4).png' alt='screenshot'>
 <img src='screenshots/screenShot (5).png' alt='screenshot'>
+<img src='screenshots/screenShot (6).png' alt='screenshot'>
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
