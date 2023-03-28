@@ -18,7 +18,7 @@
 		<pt>Extensão Da Loja</pt>
 		<ro>Extensie Magazin</ro>
 		<tr>Mağaza Uzantısı</tr>
-		<ru>Расширение магазина</ru>
+		<ru>Расширение Магазин</ru>
 	</title>
 	<iconFilename>icon.png</iconFilename>
 	<multiplayer supported='true'/>
@@ -28,7 +28,7 @@
 
 For more information, help, and report issues please visit <a href='https://github.com/4c65736975/shopExtension'>GitHub</a>.
 ]]></en>
-<de><![CDATA[Dank dieser Modifikation können Sie im Shop-Konfigurationsfenster die Ansicht der Fahrzeuginnenkamera ändern oder den Motorsound überprüfen.
+<de><![CDATA[Dank dieser Modifikation kann man in der Shop-Konfiguration die Ansicht auf die Innenraumkamera des Fahrzeugs oder den Motorsound ändern.
 
 Weitere Informationen, Hilfe und Probleme melden finden Sie unter <a href='https://github.com/4c65736975/shopExtension'>GitHub</a>.
 ]]></de>
