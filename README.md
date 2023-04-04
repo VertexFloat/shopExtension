@@ -55,7 +55,7 @@ Thanks to this modification, in shop config screen you can change view to vehicl
 
 ## Getting started
 
-If you want to install latest official version, you can [download]() it like other mods.
+If you want to install latest official version, you can [download](https://www.farming-simulator.com/mod.php?lang=pl&country=pl&mod_id=267444&title=fs2022) it like other mods.
 <br/>
 
 ### Prerequisites
