@@ -232,6 +232,10 @@ end
 ShopConfigScreen.updateCamera = Utils.overwrittenFunction(ShopConfigScreen.updateCamera, updateCamera)
 
 local function deletePreviewVehicles(self)
+  if self.engineButton ~= nil then
+    self.engineButton:setText(self.l10n:getText(ShopConfigScreen.L10N_SYMBOL.BUTTON_ENGINE_START))
+  end
+
   if self.lastGameState ~= nil then
     self.lastGameState = nil
   end
