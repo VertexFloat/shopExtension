@@ -24,7 +24,7 @@ body:
   id: game
   attributes:
     label: Game Version
-    description: Check the bottom right corner of the game's main menu.
+    description: Check the top left corner of the game's main menu.
     options:
       - Farming Simulator 22 (1.13.1.1)
       - Farming Simulator 22 (1.13.1.0)
