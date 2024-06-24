@@ -6,12 +6,14 @@
   </a>
   <h3>Shop Extension</h3>
   <p>
-    Farming Simulator 22 Modification
+    Farming Simulator Modification
     <br />
     <br />
     <a href="https://github.com/VertexFloat/shopExtension/issues">Report Bug</a>
     ·
     <a href="https://github.com/VertexFloat/shopExtension/issues">Request Feature</a>
+    ·
+    <a href="https://github.com/VertexFloat/shopExtension/blob/main/CHANGELOG.md">Changelog</a>
   </p>
 </div>
 <details>
@@ -65,24 +67,21 @@ If you want to install latest official version, you can [download](https://www.f
 
 ### Installation
 
-1. Clone the repo
+#### Method 1:
 
-```sh
-git clone https://github.com/VertexFloat/shopExtension
-```
+1. `git clone https://github.com/VertexFloat/shopExtension`
+2. Open the cloned folder.
+3. Run `modInstaller.exe`.
 
-2. Open cloned folder.
-3. Run modInstaller.exe.
-4. That's it, if everything went as it should, you can delete cloned folder.
-5. Run the game and have a nice time.
+If everything went as expected, you can delete the cloned folder. Run the game and have a nice time!
 
-or
+#### Method 2:
 
-1. Click code, download zip.
-2. Extract downloaded file.
-3. Run modInstaller.exe.
-4. That's it, if everything went as it should, you can delete downloaded folder and zip file.
-5. Run the game and have a nice time.
+1. Click the `Code` button and download the ZIP file.
+2. Extract the downloaded file.
+3. Run `modInstaller.exe`.
+
+If everything went as expected, you can delete the extracted folder and the ZIP file. Run the game and have a nice time!
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
