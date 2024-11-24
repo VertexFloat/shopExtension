@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="79">
+<modDesc descVersion="92" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
   <author>VertexFloat</author>
-  <version>1.0.0.0</version>
+  <version>1.0.0.1</version>
   <title>
     <en>Shop Extension</en>
     <de>Shop-Erweiterung</de>
     <fr>Extension De La Boutique</fr>
     <pl>Rozszerzenie Sklepu</pl>
   </title>
-  <iconFilename>icon_shopExtension.png</iconFilename>
-  <multiplayer supported="true"/>
-
   <description>
     <en><![CDATA[Thanks to this modification, in shop config screen you can change view to vehicle indoor camera or check engine sound.
+
+Changelog (1.0.0.1):
+- FS25 release
 
 For more information, help, and report issues please visit <a href="https://github.com/VertexFloat/shopExtension">GitHub</a>.]]></en>
     <de><![CDATA[Dank dieser Modifikation kann man in der Shop-Konfiguration die Ansicht auf die Innenraumkamera des Fahrzeugs oder den Motorsound ändern.
 
+Änderungsprotokoll (1.0.0.1):
+- FS25-Version
+
 Weitere Informationen, Hilfe und Probleme melden finden Sie unter <a href="https://github.com/VertexFloat/shopExtension">GitHub</a>.]]></de>
     <fr><![CDATA[Grâce à cette modification, dans l'écran de configuration de la boutique, vous pouvez changer la vue de la caméra intérieure du véhicule ou vérifier le son du moteur.
+
+Journal des modifications (1.0.0.1):
+- Sortie de FS25
 
 Pour plus d'informations, de l'aide et signaler des problèmes, veuillez visiter <a href="https://github.com/VertexFloat/shopExtension">GitHub</a>.]]></fr>
     <pl><![CDATA[Dzięki tej modyfikacji w oknie konfiguracji sklepu możesz zmienić widok na kamerę wewnętrzną pojazdu lub sprawdzić dźwięk silnika.
 
+Dziennik zmian (1.0.0.1):
+- Wydanie FS25
+
 Po więcej informacji, pomoc lub zgłoszenie błędu, odwiedź stronę <a href="https://github.com/VertexFloat/shopExtension">GitHub</a>.]]></pl>
   </description>
+  <iconFilename>icon_shopExtension.dds</iconFilename>
+  <multiplayer supported="true"/>
 
   <extraSourceFiles>
     <sourceFile filename="src/main.lua"/>
