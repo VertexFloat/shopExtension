@@ -16,38 +16,10 @@
     <a href="https://github.com/VertexFloat/shopExtension/blob/main/CHANGELOG.md">Changelog</a>
   </p>
 </div>
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li>
-          <a href="#prerequisites">Prerequisites</a>
-        </li>
-        <li>
-          <a href="#installation">Installation</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
-    </li>
-    <li>
-      <a href="#license">License</a>
-    </li>
-    <li>
-      <a href="#acknowledgments">Acknowledgments</a>
-    </li>
-  </ol>
-</details>
 
 ## About the project
 
-<img src="screenshots/screenShot (1).png" alt="screenshot">
+<img src="screenshots/screenshot (1).png" alt="screenshot">
 
 Thanks to this modification, in shop config screen you can change view to vehicle indoor camera or check engine sound.
 <br/>
@@ -57,13 +29,13 @@ Thanks to this modification, in shop config screen you can change view to vehicl
 
 ## Getting started
 
-If you want to install latest official version, you can [download](https://www.farming-simulator.com/mod.php?mod_id=267444&title=fs2022) it like other mods.
+If you want to install latest official version, you can [download](https://www.farming-simulator.com/mod.php?mod_id=305237) it like other mods.
 <br/>
 
 ### Prerequisites
 
-- [Farming Simulator 22 (PC)](https://www.farming-simulator.com/buy-now.php?platform=pc&code=VertexFloat)
-- [Farming Simulator 22 (PC-Download)](https://www.farming-simulator.com/buy-now.php?platform=pcdigital&code=VertexFloat)
+- [Farming Simulator 25 (PC)](https://www.farming-simulator.com/buy-now.php?platform=pc&code=VertexFloat)
+- [Farming Simulator 25 (PC-Download)](https://www.farming-simulator.com/buy-now.php?platform=pcdigital&code=VertexFloat)
 
 ### Installation
 
@@ -87,11 +59,9 @@ If everything went as expected, you can delete the extracted folder and the ZIP 
 
 ## Usage
 
-<img src="screenshots/screenShot (2).png" alt="screenshot">
-<img src="screenshots/screenShot (3).png" alt="screenshot">
-<img src="screenshots/screenShot (4).png" alt="screenshot">
-<img src="screenshots/screenShot (5).png" alt="screenshot">
-<img src="screenshots/screenShot (6).png" alt="screenshot">
+<img src="screenshots/screenshot (2).png" alt="screenshot">
+<img src="screenshots/screenshot (3).png" alt="screenshot">
+<img src="screenshots/screenshot (4).png" alt="screenshot">
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
 
@@ -105,7 +75,5 @@ Distributed under the GPL-3.0 license. See [LICENSE](https://github.com/VertexFl
 
 - [Choose an Open Source License](https://choosealicense.com)
 - [Best README Template](https://github.com/othneildrew/Best-README-Template)
-- [Shop icons created by Vectors Market - Flaticon](https://www.flaticon.com/free-icons/shop)
-- [Puzzle icons created by Yogi Aprelliyanto - Flaticon](https://www.flaticon.com/free-icons/puzzle)
 
 <p align="right">&#x2191 <a href="#top">back to top</a></p>
